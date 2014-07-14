@@ -19,6 +19,10 @@
 		4FAAF660197468DB00803756 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAAF648197468DB00803756 /* UIKit.framework */; };
 		4FAAF668197468DB00803756 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FAAF666197468DB00803756 /* InfoPlist.strings */; };
 		4FAAF66A197468DB00803756 /* EjemploNavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAAF669197468DB00803756 /* EjemploNavigationControllerTests.m */; };
+		4FAAF6741974691C00803756 /* MainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FAAF6731974691C00803756 /* MainController.xib */; };
+		4FAAF6771974694E00803756 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAAF6761974694E00803756 /* MainController.m */; };
+		4FAAF67919746B4700803756 /* NextController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FAAF67819746B4700803756 /* NextController.xib */; };
+		4FAAF67C19746BAF00803756 /* NextController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAAF67B19746BAF00803756 /* NextController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		4FAAF665197468DB00803756 /* EjemploNavigationControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EjemploNavigationControllerTests-Info.plist"; sourceTree = "<group>"; };
 		4FAAF667197468DB00803756 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4FAAF669197468DB00803756 /* EjemploNavigationControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EjemploNavigationControllerTests.m; sourceTree = "<group>"; };
+		4FAAF6731974691C00803756 /* MainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainController.xib; sourceTree = "<group>"; };
+		4FAAF6751974694E00803756 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		4FAAF6761974694E00803756 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		4FAAF67819746B4700803756 /* NextController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextController.xib; sourceTree = "<group>"; };
+		4FAAF67A19746BAF00803756 /* NextController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextController.h; sourceTree = "<group>"; };
+		4FAAF67B19746BAF00803756 /* NextController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +121,12 @@
 				4FAAF654197468DB00803756 /* AppDelegate.m */,
 				4FAAF656197468DB00803756 /* Images.xcassets */,
 				4FAAF64B197468DB00803756 /* Supporting Files */,
+				4FAAF6731974691C00803756 /* MainController.xib */,
+				4FAAF6751974694E00803756 /* MainController.h */,
+				4FAAF6761974694E00803756 /* MainController.m */,
+				4FAAF67819746B4700803756 /* NextController.xib */,
+				4FAAF67A19746BAF00803756 /* NextController.h */,
+				4FAAF67B19746BAF00803756 /* NextController.m */,
 			);
 			path = EjemploNavigationController;
 			sourceTree = "<group>";
@@ -221,6 +237,8 @@
 			files = (
 				4FAAF64F197468DB00803756 /* InfoPlist.strings in Resources */,
 				4FAAF657197468DB00803756 /* Images.xcassets in Resources */,
+				4FAAF67919746B4700803756 /* NextController.xib in Resources */,
+				4FAAF6741974691C00803756 /* MainController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +258,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FAAF655197468DB00803756 /* AppDelegate.m in Sources */,
+				4FAAF6771974694E00803756 /* MainController.m in Sources */,
+				4FAAF67C19746BAF00803756 /* NextController.m in Sources */,
 				4FAAF651197468DB00803756 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
